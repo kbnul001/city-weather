@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+
+#bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.25);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 5%;
+  }
+
+  .search-box{
+      position: relative;
+      top: 180px;
+  }
+  #spinner{
+    position: fixed;
+    top: 45%;
+    left: 50%;
+  }
+  #error{
+    display: none;
+  }
+
+@media only screen and (max-width: 1024px){
+  .search-area{
+    width: 80% !important;
+  }
+  #bgVideo{
+    height: 100%;
+    width: auto;
+  }
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.50);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 5%;
+    height: 50%;
+  }
+
+}
+
+@media only screen and (max-height: 400px){
+  .search-box{
+    position: relative;
+    top: 20px;
+}
+}
